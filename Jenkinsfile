@@ -1,3 +1,8 @@
+@Library('deployment') _
+
+buildDocker('vylla-fe-homeiq')
+
+##
 pipeline {
 
   environment {
